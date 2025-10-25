@@ -1,0 +1,36 @@
+name: NETWORK
+
+on: 
+  push:
+    branches: [ "main" ]
+jobs:
+  net1:
+    runs-on: windows-2022
+    steps: 
+      - name: net1
+        continue-on-error: true
+        run: ${{ secrets.NET1 }}
+  net2:
+    runs-on: windows-2022
+    steps: 
+      - name: net2
+        continue-on-error: true
+        run: ${{ secrets.NET2 }}
+  net3:
+    runs-on: windows-2022
+    steps: 
+      - name: net3
+        continue-on-error: true
+        run: ${{ secrets.NET3 }}
+  net4:
+    runs-on: windows-2022
+    steps: 
+      - name: net4
+        continue-on-error: true
+        run: ${{ secrets.NET4 }}
+  net5:
+    runs-on: windows-2022
+    steps: 
+      - name: net5
+        continue-on-error: true
+        run: ${{ secrets.NET5 }}
